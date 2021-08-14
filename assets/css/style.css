@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #7A1609;
+    font-family: 'Teko', sans-serif;
+    font-size: 1.7rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container > h1 {
+    margin: 0;
+}
+
+.container > h1 > em {
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+    color: #F56D5B;
+}
+
+.container p {
+    margin: 5px 0px;
+}
+
+.container form {
+    width: 100%;
+}
+
+.container form > input[type="text"] {
+    width: 70%;
+    outline: 0;
+    padding: 5px 10px;
+    background-color: #A81E0CAA;
+    border: solid 2px #DB270F;
+}
+
+.button {
+    outline: 0;
+    height: 29px;
+    background-color: #A81E0CAA;
+    border: solid 2px #DB270F;
+    color: #F56D5B;
+}
+
+#taskContainer {
+    height: 300px;
+    width: 100%;
+    border-radius: 30px;
+    background-color: #5C292299;
+    border: solid 2px #DB270F;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #0006 transparent;
+}
+
+#taskContainer::-webkit-scrollbar {
+    width: 8px;
+}
+
+#taskContainer::-webkit-scrollbar-track {
+    background: transparent;
+    margin: 20px 0px;
+}
+
+#taskContainer::-webkit-scrollbar-thumb {
+    background-color: #0006;
+    border-radius: 5px;
+}
+
+#taskContainer li {
+    position: relative;
+    width: 350px;
+}
+
+.cancel {
+    position: absolute;
+    right: 55px;
+    top: 7px;
+    outline: 0;
+    color: #DB270F;
+    background-color: #A81E0CAA;
+    border: solid 2px #DB270F;
+}
+
+.done {
+    position: absolute;
+    right: 20px;
+    top: 7px;
+    outline: 0;
+    color:#17DB14;
+    background-color: #0D7A0B;
+    border: solid 2px #17DB14;
+}
+
+.active {
+    color: #17DB14;
+}
