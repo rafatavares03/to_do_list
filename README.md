@@ -49,4 +49,7 @@ Technologies
 Author
 ------
 <h3 align="center">Rafael Tavares</h3>
-<a align="center" href="https://www.instagram.com/rafatavares03/">Instagram</a>
+<p align="center">
+ <a href="https://www.facebook.com/rafael.tavares.39904/"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"></img></a>
+ <a href="https://www.instagram.com/rafatavares03/"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white"></img></a>
+</p>
